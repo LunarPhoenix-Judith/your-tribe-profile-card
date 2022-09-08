@@ -1,0 +1,172 @@
+
+html {
+  height:100%;
+  position:relative;
+}
+
+.onzichtbaar{
+  position: relative;
+  height:100%;
+}
+
+.eerste{
+  position: relative;
+  z-index: 1;
+  
+}
+
+.tweede{
+  position: absolute;
+  z-index: 1;
+}
+
+
+
+body {
+  height:100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:rgb(0, 0, 0);
+
+}
+
+
+.grid-item {
+  font-size: 30px;
+  text-align: right;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+
+
+
+article {
+  width:50vw;
+  max-width: 25em;
+  min-width:20em;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  background:linear-gradient(rgb(29, 29, 29), rgb(108, 108, 108));
+  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
+  border-radius:1rem;
+  position: relative;
+  transition:.25s;
+  margin-bottom: 1rem;
+}
+
+header {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  justify-content:flex-end;
+  background: #000;
+  width: 100%;
+  border-radius:1rem 1rem 0 0;
+  
+}
+
+h1 {
+  margin:2rem 0 1rem;
+  color:#FF8181;
+  text-align: center;
+  font-size: 32px;
+}
+
+h2 {
+  margin:2rem 0 1rem;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
+
+
+img {
+  width:4em;
+  border-radius:10em;
+  border:5px solid #ffba81;
+  box-shadow:0 0 2px 2px rgba(0,0,0,.2);
+  position:relative;
+  transition:.25s .15s;
+  margin-right: 7em;
+  margin-top:0.5em;
+  
+  
+}
+
+body{
+  margin-bottom:10em;
+  
+}
+
+ul{
+  vertical-align: super;
+  margin-bottom: 7em;
+  list-style: none;
+  margin-left: 5em;
+  position: relative;
+  align-content:right;
+
+}
+
+li{
+  color:#FF8181;
+  font-weight:lighter;
+  font-size: 16px;
+  white-space: pre;
+  position: inherit;
+  
+}
+p { 
+  margin:0
+}
+
+article > p {
+  padding:3rem 2rem;
+  margin-top: 1em;
+  background:#FFBA81;
+  text-align:center;
+  border-radius: 0 0 1rem 1rem;
+  width:100%;
+}
+
+/* expand content */
+body.expand {
+  font-size:1.15em;
+}
+
+body.expand article {
+  width:60vw;
+  max-width: 60vw;
+}
+
+body.expand button svg:first-of-type {
+  opacity:0;
+  transition-delay: 0ms;
+}
+
+body.expand button svg:nth-of-type(2) {
+  opacity:1;
+  transition-delay:.25s;
+}
+
+body.expand dd {
+  font-size: 1.75em;
+}
+
+
+
+
+
+footer{
+background: rgb(0, 0, 0);
+width:100%;
+margin-top: 1rem;
+border-radius:0 0 1rem 1rem;
+border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
