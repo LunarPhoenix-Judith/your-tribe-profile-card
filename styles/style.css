@@ -2,6 +2,7 @@
 /* Note to self; bij border radius is de rem: Top left, Top right, Bottom left, Bottom right */
 * {
   box-sizing: border-box;
+  color: #ffffff;
 }
 html {
   min-height: 100%;
@@ -10,8 +11,11 @@ html {
 }
 
 body {
-  background: url(./../images/pexels-photo-6766456_cleanup.jpeg) no-repeat
-    center center fixed;
+  background: repeating-linear-gradient(
+      rgba(74, 26, 81, 0.25),
+      rgba(74, 26, 81, 0.25)
+    ),
+    url(./../images/pexels-photo-6766456_cleanup.jpeg);
   background-size: cover;
 }
 
@@ -25,12 +29,15 @@ main {
   align-content: center;
 }
 /* alles moet ff meer naar rechts, niet alles is hoe rechter hoe slechter ;) */
+
 article {
   width: 300px;
   height: 470px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgb(209, 209, 209), rgb(108, 108, 108));
+  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25)),
+    url(./../images/pexels-airam-datoon-3389817.jpg);
+  background-position: center;
   box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
   border: 1px solid #000000;
   /* border moet niet uitsteken om andere, ff aanpassen UwU */
@@ -88,7 +95,7 @@ article h2 {
 }
 
 .introduction ul li {
-  width: 6em;
+  width: 8em;
   align-items: baseline;
   text-align: right;
   font-size: 14px;
