@@ -17,6 +17,7 @@ body {
     ),
     url(./../images/pexels-photo-6766456_cleanup.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden; /* Hide scrollbars */
 }
 
