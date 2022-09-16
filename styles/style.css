@@ -28,6 +28,12 @@ main {
   gap: 3em;
   align-content: center;
 }
+
+.back {
+  transform: rotateY(180deg);
+  background-color: white;
+}
+
 /* alles moet ff meer naar rechts, niet alles is hoe rechter hoe slechter ;) */
 
 article {
