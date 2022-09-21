@@ -2,7 +2,7 @@
 
 ###### (https://lunarphoenix-judith.github.io/your-tribe-profile-card-/ )
 
-![Image](/images/visitekaart.png)
+![Image](/images/Profile_card.jpeg)
 
 **Doel opdracht:** Het maken van een visitekaartje om jezelf voor te stellen aan je squad (werkgever/team)
 
