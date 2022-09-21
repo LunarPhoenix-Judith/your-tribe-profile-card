@@ -39,7 +39,7 @@ Voor dit project is er gebruik gemaakt van HTML en CSS. Onder zijn de tools verm
 
 # Gebruik #
 
-Het project is op dit moment nog niet live, via een url kan deze bezocht worden.
+via de bovenstaande url kan dit visitekaartje bezocht worden.
 
 # Bronnen #
 
