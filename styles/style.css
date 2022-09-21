@@ -20,12 +20,6 @@ body {
   overflow: hidden; /* Hide scrollbars */
 }
 
-.voorkant {
-  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25));
-  transition: 3s;
-  transform: rotateY(180deg);
-}
-
 main {
   display: flex;
   flex-direction: row;
@@ -36,21 +30,44 @@ main {
   margin-left: 50px;
 }
 
-/* alles moet ff meer naar rechts, niet alles is hoe rechter hoe slechter ;) */
+.card-container {
+  -webkit-perspective: 1200;
+  -moz-perspective: 1200;
+  perspective: 1200;
+}
+.card-vertical,
+.card-horizontal {
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: all 0.4s ease;
+}
 
-article {
-  width: 300px;
-  height: 470px;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25)),
-    url(./../images/pexels-airam-datoon-3389817.jpg);
-  background-position: center;
-  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
-  border: 1px solid #000000;
-  /* border moet niet uitsteken om andere, ff aanpassen UwU */
-  border-radius: 2rem 2rem 2rem 2rem;
-  transition: 0.25s;
+.card-back {
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.card-front {
+  -moz-transform: rotateY(179.9deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+}
+
+.card-front-content {
+  -moz-transform: rotateY(179.9deg);
+  -webkit-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
+  rotate: 8deg;
+}
+
+.card-vertical:hover {
+  -webkit-transform: rotateY(179.9deg);
+  -moz-transform: rotateY(179.9deg);
+  transform: rotateY(179.9deg);
 }
 
 article header,
@@ -82,7 +99,16 @@ article h2 {
 /* Introduction H-koppen */
 
 .introduction {
+  width: 300px;
+  height: 470px;
   display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25)),
+    url(./../images/pexels-airam-datoon-3389817.jpg);
+  background-position: center;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  border-radius: 2rem 2rem 2rem 2rem;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -133,6 +159,15 @@ article h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 300px;
+  height: 470px;
+  flex-direction: column;
+  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25)),
+    url(./../images/pexels-airam-datoon-3389817.jpg);
+  background-position: center;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  border-radius: 2rem 2rem 2rem 2rem;
 }
 
 .interests h2 {
@@ -150,6 +185,15 @@ article h2 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 300px;
+  height: 470px;
+  flex-direction: column;
+  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25)),
+    url(./../images/pexels-airam-datoon-3389817.jpg);
+  background-position: center;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  border-radius: 2rem 2rem 2rem 2rem;
 }
 
 .favorites h2 {
@@ -168,6 +212,15 @@ article h2 {
   justify-content: center;
   flex-direction: column;
   rotate: 8deg;
+  width: 300px;
+  height: 470px;
+  flex-direction: column;
+  background: linear-gradient(rgba(234, 12, 12, 0.25), rgba(233, 97, 18, 0.25)),
+    url(./../images/pexels-airam-datoon-3389817.jpg);
+  background-position: center;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #000000;
+  border-radius: 2rem 2rem 2rem 2rem;
 }
 
 .ambitions h2 {
