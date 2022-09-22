@@ -27,7 +27,8 @@ main {
   gap: 3em;
   align-content: center;
   margin-top: 90px;
-  margin-left: -20px;
+  margin-right: 100px;
+  max-width: 100%;
 }
 
 .card-container {
