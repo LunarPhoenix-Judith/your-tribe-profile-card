@@ -27,7 +27,7 @@ main {
   gap: 3em;
   align-content: center;
   margin-top: 90px;
-  margin-left: 50px;
+  margin-left: -20px;
 }
 
 .card-container {
@@ -79,6 +79,10 @@ article footer {
   position: static;
   color: #ffffff;
   font-family: "Amatic SC", serif;
+}
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
 
 /*Foot fetish lmao, nee jk, tis de footer */
