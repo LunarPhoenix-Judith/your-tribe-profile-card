@@ -2,7 +2,8 @@
 
 ###### (https://lunarphoenix-judith.github.io/your-tribe-profile-card-/ )
 
-![Image](/images/visitekaart.png)
+![Profile_card](https://user-images.githubusercontent.com/112855926/191474156-2a9044ec-1d83-4de5-9cdf-e2b60efae86e.jpg)
+
 
 **Doel opdracht:** Het maken van een visitekaartje om jezelf voor te stellen aan je squad (werkgever/team)
 
@@ -38,7 +39,7 @@ Voor dit project is er gebruik gemaakt van HTML en CSS. Onder zijn de tools verm
 
 # Gebruik #
 
-Het project is op dit moment nog niet live, via een url kan deze bezocht worden.
+via de bovenstaande url kan dit visitekaartje bezocht worden.
 
 # Bronnen #
 
